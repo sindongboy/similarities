@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.skplanet.nlp.similarities.weight</OriginalElement>
+  <nodes>
+    <node x="251.0" y="226.5">com.skplanet.nlp.similarities.weight.LSIWeighting</node>
+    <node x="0.0" y="204.0">com.skplanet.nlp.similarities.weight.TFIDFWeighting</node>
+    <node x="92.0" y="0.0">com.skplanet.nlp.similarities.weight.Weighting</node>
+    <node x="140.0" y="102.0">com.skplanet.nlp.similarities.weight.AbstractWeighting</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.skplanet.nlp.similarities.weight.TFIDFWeighting" target="com.skplanet.nlp.similarities.weight.AbstractWeighting">
+      <point x="0.0" y="-71.0" />
+      <point x="115.5" y="179.0" />
+      <point x="185.5" y="179.0" />
+      <point x="-45.5" y="26.0" />
+    </edge>
+    <edge source="com.skplanet.nlp.similarities.weight.AbstractWeighting" target="com.skplanet.nlp.similarities.weight.Weighting">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="com.skplanet.nlp.similarities.weight.LSIWeighting" target="com.skplanet.nlp.similarities.weight.AbstractWeighting">
+      <point x="0.0" y="-48.5" />
+      <point x="346.5" y="179.0" />
+      <point x="276.5" y="179.0" />
+      <point x="45.5" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="221.0" y="173.0" />
+  <SelectedNodes>
+    <node>com.skplanet.nlp.similarities.weight.AbstractWeighting</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

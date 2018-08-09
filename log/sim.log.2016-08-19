@@ -1,0 +1,4 @@
+[2016-08-19 11:18:34][INFO ](LSIWeighting.java:30) - begin SVD operation done : 156494 sec.
+[2016-08-19 11:18:35][INFO ](GenerateWeightedMatrix.java:109) - Generate LSI Weighted Matrix done : 156507034 msec.
+[2016-08-19 11:18:35][INFO ](GenerateWeightedMatrix.java:113) - Print Out Result Matrix ....
+[2016-08-19 11:18:35][INFO ](GenerateWeightedMatrix.java:117) - processed document : 0 / 641

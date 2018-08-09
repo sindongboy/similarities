@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.skplanet.nlp.similarities.driver</OriginalElement>
+  <nodes>
+    <node x="0.0" y="253.0">com.skplanet.nlp.similarities.driver.TopKeywordGenerator</node>
+    <node x="256.0" y="253.0">com.skplanet.nlp.similarities.driver.GenerateSimilarityTable</node>
+    <node x="0.0" y="0.0">com.skplanet.nlp.similarities.driver.GenerateWeightedMatrix</node>
+    <node x="0.0" y="418.0">com.skplanet.nlp.similarities.driver.GenerateBM25Table</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="233.5" y="246.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

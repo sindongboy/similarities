@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.skplanet.nlp.similarities.data</OriginalElement>
+  <nodes>
+    <node x="0.0" y="495.0">com.skplanet.nlp.similarities.data.Document</node>
+    <node x="436.0" y="495.0">com.skplanet.nlp.similarities.data.CollectionNotFoundException</node>
+    <node x="0.0" y="0.0">com.skplanet.nlp.similarities.data.Collection</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.skplanet.nlp.similarities.data.Collection" target="com.skplanet.nlp.similarities.data.Document">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8103241296518607" x="355.0" y="406.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

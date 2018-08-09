@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.skplanet.nlp.similarities</OriginalElement>
+  <nodes>
+    <node x="0.0" y="687.0">com.skplanet.nlp.similarities.data</node>
+    <node x="532.0" y="612.0">com.skplanet.nlp.similarities.driver</node>
+    <node x="612.0" y="249.0">com.skplanet.nlp.similarities.BM25Similarity</node>
+    <node x="316.0" y="687.0">com.skplanet.nlp.similarities.io</node>
+    <node x="182.0" y="612.0">com.skplanet.nlp.similarities.weight</node>
+    <node x="306.0" y="124.0">com.skplanet.nlp.similarities.AbstractSimilarity</node>
+    <node x="191.0" y="382.0">com.skplanet.nlp.similarities.JaccardSimilarity</node>
+    <node x="232.5" y="0.0">com.skplanet.nlp.similarities.Similarity</node>
+    <node x="0.0" y="612.0">com.skplanet.nlp.similarities.smooth</node>
+    <node x="0.0" y="370.5">com.skplanet.nlp.similarities.CosineSimilarity</node>
+    <node x="358.0" y="612.0">com.skplanet.nlp.similarities.config</node>
+    <node x="161.0" y="687.0">com.skplanet.nlp.similarities.util</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.skplanet.nlp.similarities.AbstractSimilarity" target="com.skplanet.nlp.similarities.Similarity">
+      <point x="0.0" y="-37.5" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="com.skplanet.nlp.similarities.JaccardSimilarity" target="com.skplanet.nlp.similarities.AbstractSimilarity">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="com.skplanet.nlp.similarities.BM25Similarity" target="com.skplanet.nlp.similarities.AbstractSimilarity">
+      <point x="0.0" y="-159.0" />
+      <point x="807.5" y="224.0" />
+      <point x="448.5" y="224.0" />
+      <point x="57.0" y="37.5" />
+    </edge>
+    <edge source="com.skplanet.nlp.similarities.CosineSimilarity" target="com.skplanet.nlp.similarities.AbstractSimilarity">
+      <point x="0.0" y="-37.5" />
+      <point x="85.5" y="224.0" />
+      <point x="334.5" y="224.0" />
+      <point x="-57.0" y="37.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9158751696065129" x="501.5" y="358.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

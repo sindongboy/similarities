@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.skplanet.nlp.similarities.io</OriginalElement>
+  <nodes>
+    <node x="7.5" y="0.0">com.skplanet.nlp.similarities.io.InputLoader</node>
+    <node x="22.5" y="250.0">com.skplanet.nlp.similarities.io.ClasspathInputLoader</node>
+    <node x="0.0" y="102.0">com.skplanet.nlp.similarities.io.AbstractInputLoader</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.skplanet.nlp.similarities.io.AbstractInputLoader" target="com.skplanet.nlp.similarities.io.InputLoader">
+      <point x="0.0" y="-49.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="com.skplanet.nlp.similarities.io.ClasspathInputLoader" target="com.skplanet.nlp.similarities.io.AbstractInputLoader">
+      <point x="0.0" y="-49.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="118.0" y="174.0" />
+  <SelectedNodes>
+    <node>com.skplanet.nlp.similarities.io.AbstractInputLoader</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

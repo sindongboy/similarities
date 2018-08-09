@@ -1,0 +1,8 @@
+com.skplanet.nlp.similarities
+com.skplanet.nlp.similarities.config
+com.skplanet.nlp.similarities.data
+com.skplanet.nlp.similarities.driver
+com.skplanet.nlp.similarities.io
+com.skplanet.nlp.similarities.smooth
+com.skplanet.nlp.similarities.util
+com.skplanet.nlp.similarities.weight

@@ -1,0 +1,744 @@
+[2016-08-17 15:08:58][INFO ](GenerateWeightedMatrix.java:62) - Load Raw Documents ....
+[2016-08-17 15:08:58][INFO ](ClasspathInputLoader.java:61) - collection loading ....
+[2016-08-17 15:08:58][INFO ](ClasspathInputLoader.java:88) - collection loading done in 101 msec.
+[2016-08-17 15:08:58][INFO ](GenerateWeightedMatrix.java:66) - Load Raw Documents done : 114 msec.
+[2016-08-17 15:08:58][INFO ](GenerateWeightedMatrix.java:70) - Convert Raw Document to Collection ....
+[2016-08-17 15:08:58][INFO ](GenerateWeightedMatrix.java:74) - Convert Raw Document to Collection done : 15 msec.
+[2016-08-17 15:08:58][INFO ](GenerateWeightedMatrix.java:78) - Generate Raw Term-Document Matrix ....
+[2016-08-17 15:08:58][INFO ](Collection.java:111) - VSIZE: 1117
+[2016-08-17 15:08:58][INFO ](Collection.java:112) - DSIZE: 641
+[2016-08-17 15:08:58][INFO ](Collection.java:116) - DATA MATRIX CREATED
+[2016-08-17 15:08:58][INFO ](GenerateWeightedMatrix.java:82) - Generate Raw Term-Document Matrix done : 104 msec.
+[2016-08-17 15:08:58][INFO ](GenerateWeightedMatrix.java:87) - Generate TFIDF Weighted Term Document Matrix ....
+[2016-08-17 15:08:58][INFO ](TFIDFWeighting.java:49) - document : 0/641 (1 msec)
+[2016-08-17 15:08:58][INFO ](TFIDFWeighting.java:49) - document : 100/641 (15 msec)
+[2016-08-17 15:08:58][INFO ](TFIDFWeighting.java:49) - document : 200/641 (19 msec)
+[2016-08-17 15:08:58][INFO ](TFIDFWeighting.java:49) - document : 300/641 (21 msec)
+[2016-08-17 15:08:58][INFO ](TFIDFWeighting.java:49) - document : 400/641 (23 msec)
+[2016-08-17 15:08:58][INFO ](TFIDFWeighting.java:49) - document : 500/641 (25 msec)
+[2016-08-17 15:08:58][INFO ](TFIDFWeighting.java:49) - document : 600/641 (27 msec)
+[2016-08-17 15:08:58][INFO ](GenerateWeightedMatrix.java:109) - Generate TFIDF Weighted Matrix done : 47 msec.
+[2016-08-17 15:08:58][INFO ](GenerateWeightedMatrix.java:113) - Print Out Result Matrix ....
+[2016-08-17 15:08:58][INFO ](GenerateWeightedMatrix.java:117) - processed document : 0 / 641
+[2016-08-17 15:08:58][INFO ](GenerateWeightedMatrix.java:117) - processed document : 100 / 641
+[2016-08-17 15:08:58][INFO ](GenerateWeightedMatrix.java:117) - processed document : 200 / 641
+[2016-08-17 15:08:58][INFO ](GenerateWeightedMatrix.java:117) - processed document : 300 / 641
+[2016-08-17 15:08:59][INFO ](GenerateWeightedMatrix.java:117) - processed document : 400 / 641
+[2016-08-17 15:08:59][INFO ](GenerateWeightedMatrix.java:117) - processed document : 500 / 641
+[2016-08-17 15:08:59][INFO ](GenerateWeightedMatrix.java:117) - processed document : 600 / 641
+[2016-08-17 15:08:59][INFO ](GenerateWeightedMatrix.java:143) - Print Out Result Matrix done : 200 msec.
+[2016-08-17 15:08:59][INFO ](GenerateWeightedMatrix.java:146) - All Process is finished : 483 msec.
+[2016-08-17 15:10:52][INFO ](TopKeywordGenerator.java:45) - load vocabulary ....
+[2016-08-17 15:10:52][INFO ](TopKeywordGenerator.java:57) - load vocabulary done : 20 msec.
+[2016-08-17 15:10:52][INFO ](TopKeywordGenerator.java:61) - load matrix ....
+[2016-08-17 15:10:52][INFO ](TopKeywordGenerator.java:95) - load matrix done : 271 msec.
+[2016-08-17 15:13:04][INFO ](GenerateSimilarityTable.java:45) - load vocabulary ....
+[2016-08-17 15:13:04][INFO ](GenerateSimilarityTable.java:57) - load vocabulary done : 19 msec.
+[2016-08-17 15:13:04][INFO ](GenerateSimilarityTable.java:61) - load matrix ....
+[2016-08-17 15:13:04][INFO ](GenerateSimilarityTable.java:84) - load matrix done : 148 msec.
+[2016-08-17 15:13:04][INFO ](GenerateSimilarityTable.java:100) - Generate similarity table using cosine similarity 
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 0
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 1
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 2
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 3
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 4
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 5
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 6
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 7
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 8
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 9
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 10
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 11
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 12
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 13
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 14
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 15
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 16
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 17
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 18
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 19
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 20
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 21
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 22
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 23
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 24
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 25
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 26
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 27
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 28
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 29
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 30
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 31
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 32
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 33
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 34
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 35
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 36
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 37
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 38
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 39
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 40
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 41
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 42
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 43
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 44
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 45
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 46
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 47
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 48
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 49
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 50
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 51
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 52
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 53
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 54
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 55
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 56
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 57
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 58
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 59
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 60
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 61
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 62
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 63
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 64
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 65
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 66
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 67
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 68
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 69
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 70
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 71
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 72
+[2016-08-17 15:13:04][INFO ](AbstractSimilarity.java:25) - compute similarity for 73
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 74
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 75
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 76
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 77
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 78
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 79
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 80
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 81
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 82
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 83
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 84
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 85
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 86
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 87
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 88
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 89
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 90
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 91
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 92
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 93
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 94
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 95
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 96
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 97
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 98
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 99
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 100
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 101
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 102
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 103
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 104
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 105
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 106
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 107
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 108
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 109
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 110
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 111
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 112
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 113
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 114
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 115
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 116
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 117
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 118
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 119
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 120
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 121
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 122
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 123
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 124
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 125
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 126
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 127
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 128
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 129
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 130
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 131
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 132
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 133
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 134
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 135
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 136
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 137
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 138
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 139
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 140
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 141
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 142
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 143
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 144
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 145
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 146
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 147
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 148
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 149
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 150
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 151
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 152
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 153
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 154
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 155
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 156
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 157
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 158
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 159
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 160
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 161
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 162
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 163
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 164
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 165
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 166
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 167
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 168
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 169
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 170
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 171
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 172
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 173
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 174
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 175
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 176
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 177
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 178
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 179
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 180
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 181
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 182
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 183
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 184
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 185
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 186
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 187
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 188
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 189
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 190
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 191
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 192
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 193
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 194
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 195
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 196
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 197
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 198
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 199
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 200
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 201
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 202
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 203
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 204
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 205
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 206
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 207
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 208
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 209
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 210
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 211
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 212
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 213
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 214
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 215
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 216
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 217
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 218
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 219
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 220
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 221
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 222
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 223
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 224
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 225
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 226
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 227
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 228
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 229
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 230
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 231
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 232
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 233
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 234
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 235
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 236
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 237
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 238
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 239
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 240
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 241
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 242
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 243
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 244
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 245
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 246
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 247
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 248
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 249
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 250
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 251
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 252
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 253
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 254
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 255
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 256
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 257
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 258
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 259
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 260
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 261
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 262
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 263
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 264
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 265
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 266
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 267
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 268
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 269
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 270
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 271
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 272
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 273
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 274
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 275
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 276
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 277
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 278
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 279
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 280
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 281
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 282
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 283
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 284
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 285
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 286
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 287
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 288
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 289
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 290
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 291
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 292
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 293
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 294
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 295
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 296
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 297
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 298
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 299
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 300
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 301
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 302
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 303
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 304
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 305
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 306
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 307
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 308
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 309
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 310
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 311
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 312
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 313
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 314
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 315
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 316
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 317
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 318
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 319
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 320
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 321
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 322
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 323
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 324
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 325
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 326
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 327
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 328
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 329
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 330
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 331
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 332
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 333
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 334
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 335
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 336
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 337
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 338
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 339
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 340
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 341
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 342
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 343
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 344
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 345
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 346
+[2016-08-17 15:13:05][INFO ](AbstractSimilarity.java:25) - compute similarity for 347
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 348
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 349
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 350
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 351
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 352
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 353
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 354
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 355
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 356
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 357
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 358
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 359
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 360
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 361
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 362
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 363
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 364
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 365
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 366
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 367
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 368
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 369
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 370
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 371
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 372
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 373
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 374
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 375
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 376
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 377
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 378
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 379
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 380
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 381
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 382
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 383
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 384
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 385
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 386
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 387
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 388
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 389
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 390
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 391
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 392
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 393
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 394
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 395
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 396
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 397
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 398
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 399
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 400
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 401
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 402
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 403
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 404
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 405
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 406
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 407
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 408
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 409
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 410
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 411
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 412
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 413
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 414
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 415
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 416
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 417
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 418
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 419
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 420
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 421
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 422
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 423
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 424
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 425
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 426
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 427
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 428
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 429
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 430
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 431
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 432
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 433
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 434
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 435
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 436
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 437
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 438
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 439
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 440
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 441
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 442
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 443
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 444
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 445
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 446
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 447
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 448
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 449
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 450
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 451
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 452
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 453
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 454
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 455
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 456
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 457
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 458
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 459
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 460
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 461
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 462
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 463
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 464
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 465
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 466
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 467
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 468
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 469
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 470
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 471
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 472
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 473
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 474
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 475
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 476
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 477
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 478
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 479
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 480
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 481
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 482
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 483
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 484
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 485
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 486
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 487
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 488
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 489
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 490
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 491
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 492
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 493
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 494
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 495
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 496
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 497
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 498
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 499
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 500
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 501
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 502
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 503
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 504
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 505
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 506
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 507
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 508
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 509
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 510
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 511
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 512
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 513
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 514
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 515
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 516
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 517
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 518
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 519
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 520
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 521
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 522
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 523
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 524
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 525
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 526
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 527
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 528
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 529
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 530
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 531
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 532
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 533
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 534
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 535
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 536
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 537
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 538
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 539
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 540
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 541
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 542
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 543
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 544
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 545
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 546
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 547
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 548
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 549
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 550
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 551
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 552
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 553
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 554
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 555
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 556
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 557
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 558
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 559
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 560
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 561
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 562
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 563
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 564
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 565
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 566
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 567
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 568
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 569
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 570
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 571
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 572
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 573
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 574
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 575
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 576
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 577
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 578
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 579
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 580
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 581
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 582
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 583
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 584
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 585
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 586
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 587
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 588
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 589
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 590
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 591
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 592
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 593
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 594
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 595
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 596
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 597
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 598
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 599
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 600
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 601
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 602
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 603
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 604
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 605
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 606
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 607
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 608
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 609
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 610
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 611
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 612
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 613
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 614
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 615
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 616
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 617
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 618
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 619
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 620
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 621
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 622
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 623
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 624
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 625
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 626
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 627
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 628
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 629
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 630
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 631
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 632
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 633
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 634
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 635
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 636
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 637
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 638
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 639
+[2016-08-17 15:13:06][INFO ](AbstractSimilarity.java:25) - compute similarity for 640
+[2016-08-17 15:15:15][INFO ](GenerateWeightedMatrix.java:62) - Load Raw Documents ....
+[2016-08-17 15:15:15][INFO ](ClasspathInputLoader.java:61) - collection loading ....
+[2016-08-17 15:15:15][INFO ](ClasspathInputLoader.java:88) - collection loading done in 32 msec.
+[2016-08-17 15:15:15][INFO ](GenerateWeightedMatrix.java:66) - Load Raw Documents done : 41 msec.
+[2016-08-17 15:15:15][INFO ](GenerateWeightedMatrix.java:70) - Convert Raw Document to Collection ....
+[2016-08-17 15:15:15][INFO ](GenerateWeightedMatrix.java:74) - Convert Raw Document to Collection done : 17 msec.
+[2016-08-17 15:15:15][INFO ](GenerateWeightedMatrix.java:78) - Generate Raw Term-Document Matrix ....
+[2016-08-17 15:15:15][INFO ](Collection.java:111) - VSIZE: 1121
+[2016-08-17 15:15:15][INFO ](Collection.java:112) - DSIZE: 642
+[2016-08-17 15:15:15][INFO ](Collection.java:116) - DATA MATRIX CREATED
+[2016-08-17 15:15:15][INFO ](GenerateWeightedMatrix.java:82) - Generate Raw Term-Document Matrix done : 103 msec.
+[2016-08-17 15:15:15][INFO ](GenerateWeightedMatrix.java:90) - Generate LSI Weighted Term Document Matrix ....
+[2016-08-17 15:15:15][INFO ](LSIWeighting.java:26) - begin SVD operation ....
+[2016-08-17 15:15:16][INFO ](LSIWeighting.java:30) - begin SVD operation done : 1 sec.
+[2016-08-17 15:15:16][INFO ](GenerateWeightedMatrix.java:109) - Generate TFIDF Weighted Matrix done : 1140 msec.
+[2016-08-17 15:15:16][INFO ](GenerateWeightedMatrix.java:113) - Print Out Result Matrix ....
+[2016-08-17 15:15:16][INFO ](GenerateWeightedMatrix.java:117) - processed document : 0 / 642
+[2016-08-17 15:42:30][INFO ](GenerateWeightedMatrix.java:62) - Load Raw Documents ....
+[2016-08-17 15:42:30][INFO ](ClasspathInputLoader.java:61) - collection loading ....
+[2016-08-17 15:42:30][INFO ](ClasspathInputLoader.java:88) - collection loading done in 57 msec.
+[2016-08-17 15:42:30][INFO ](GenerateWeightedMatrix.java:66) - Load Raw Documents done : 79 msec.
+[2016-08-17 15:42:30][INFO ](GenerateWeightedMatrix.java:70) - Convert Raw Document to Collection ....
+[2016-08-17 15:42:30][INFO ](GenerateWeightedMatrix.java:74) - Convert Raw Document to Collection done : 18 msec.
+[2016-08-17 15:42:30][INFO ](GenerateWeightedMatrix.java:78) - Generate Raw Term-Document Matrix ....
+[2016-08-17 15:42:30][INFO ](Collection.java:111) - VSIZE: 1117
+[2016-08-17 15:42:30][INFO ](Collection.java:112) - DSIZE: 641
+[2016-08-17 15:42:30][INFO ](Collection.java:116) - DATA MATRIX CREATED
+[2016-08-17 15:42:30][INFO ](GenerateWeightedMatrix.java:82) - Generate Raw Term-Document Matrix done : 112 msec.
+[2016-08-17 15:42:30][INFO ](GenerateWeightedMatrix.java:90) - Generate LSI Weighted Term Document Matrix ....
+[2016-08-17 15:42:30][INFO ](LSIWeighting.java:26) - begin SVD operation ....
+[2016-08-17 15:42:31][INFO ](LSIWeighting.java:30) - begin SVD operation done : 1 sec.
+[2016-08-17 15:42:31][INFO ](GenerateWeightedMatrix.java:109) - Generate LSI Weighted Matrix done : 1513 msec.
+[2016-08-17 15:42:31][INFO ](GenerateWeightedMatrix.java:113) - Print Out Result Matrix ....
+[2016-08-17 15:42:31][INFO ](GenerateWeightedMatrix.java:117) - processed document : 0 / 641
+[2016-08-17 15:43:02][INFO ](GenerateWeightedMatrix.java:62) - Load Raw Documents ....
+[2016-08-17 15:43:02][INFO ](ClasspathInputLoader.java:61) - collection loading ....
+[2016-08-17 15:43:02][INFO ](ClasspathInputLoader.java:88) - collection loading done in 127 msec.
+[2016-08-17 15:43:02][INFO ](GenerateWeightedMatrix.java:66) - Load Raw Documents done : 175 msec.
+[2016-08-17 15:43:02][INFO ](GenerateWeightedMatrix.java:70) - Convert Raw Document to Collection ....
+[2016-08-17 15:43:02][INFO ](GenerateWeightedMatrix.java:74) - Convert Raw Document to Collection done : 30 msec.
+[2016-08-17 15:43:02][INFO ](GenerateWeightedMatrix.java:78) - Generate Raw Term-Document Matrix ....
+[2016-08-17 15:43:02][INFO ](Collection.java:111) - VSIZE: 1117
+[2016-08-17 15:43:02][INFO ](Collection.java:112) - DSIZE: 641
+[2016-08-17 15:43:02][INFO ](Collection.java:116) - DATA MATRIX CREATED
+[2016-08-17 15:43:03][INFO ](GenerateWeightedMatrix.java:82) - Generate Raw Term-Document Matrix done : 179 msec.
+[2016-08-17 15:43:03][INFO ](GenerateWeightedMatrix.java:90) - Generate LSI Weighted Term Document Matrix ....
+[2016-08-17 15:43:03][INFO ](LSIWeighting.java:26) - begin SVD operation ....
+[2016-08-17 15:43:04][INFO ](LSIWeighting.java:30) - begin SVD operation done : 1 sec.
+[2016-08-17 15:43:04][INFO ](GenerateWeightedMatrix.java:109) - Generate LSI Weighted Matrix done : 1568 msec.
+[2016-08-17 15:43:04][INFO ](GenerateWeightedMatrix.java:113) - Print Out Result Matrix ....
+[2016-08-17 15:43:04][INFO ](GenerateWeightedMatrix.java:117) - processed document : 0 / 641
+[2016-08-17 15:49:33][INFO ](GenerateWeightedMatrix.java:62) - Load Raw Documents ....
+[2016-08-17 15:49:34][INFO ](ClasspathInputLoader.java:61) - collection loading ....
+[2016-08-17 15:49:34][INFO ](ClasspathInputLoader.java:88) - collection loading done in 90 msec.
+[2016-08-17 15:49:34][INFO ](GenerateWeightedMatrix.java:66) - Load Raw Documents done : 184 msec.
+[2016-08-17 15:49:34][INFO ](GenerateWeightedMatrix.java:70) - Convert Raw Document to Collection ....
+[2016-08-17 15:49:34][INFO ](GenerateWeightedMatrix.java:74) - Convert Raw Document to Collection done : 26 msec.
+[2016-08-17 15:49:34][INFO ](GenerateWeightedMatrix.java:78) - Generate Raw Term-Document Matrix ....
+[2016-08-17 15:49:34][INFO ](Collection.java:111) - VSIZE: 1117
+[2016-08-17 15:49:34][INFO ](Collection.java:112) - DSIZE: 641
+[2016-08-17 15:49:34][INFO ](Collection.java:116) - DATA MATRIX CREATED
+[2016-08-17 15:49:34][INFO ](GenerateWeightedMatrix.java:82) - Generate Raw Term-Document Matrix done : 133 msec.
+[2016-08-17 15:49:34][INFO ](GenerateWeightedMatrix.java:90) - Generate LSI Weighted Term Document Matrix ....
+[2016-08-17 15:50:21][INFO ](LSIWeighting.java:26) - begin SVD operation ....
